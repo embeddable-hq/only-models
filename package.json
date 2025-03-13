@@ -1,0 +1,24 @@
+{
+  "name": "embeddable-models-only-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "embeddable:build": "embeddable build",
+    "embeddable:push": "embeddable push",
+    "embeddable:login": "embeddable login",
+    "embeddable:dev": "cross-env NODE_OPTIONS='--max-old-space-size=4096' embeddable dev",
+    "embeddable:update": "npx npm-check-updates -u \"/embeddable/\"",
+    "dev": "cross-env NODE_OPTIONS='--max-old-space-size=4096' embeddable dev",
+    "build": "embeddable build",
+    "push": "embeddable push"
+  },
+  "dependencies": { },
+  "devDependencies": {
+    "@embeddable.com/core": "^2.9.4",
+    "@embeddable.com/react": "^2.9.7",
+    "@embeddable.com/sdk-core": "^3.13.5",
+    "@embeddable.com/sdk-react": "^3.10.12",
+    "cross-env": "^7.0.3"
+  }
+}
